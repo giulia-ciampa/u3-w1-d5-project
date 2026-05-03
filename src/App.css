@@ -1,0 +1,31 @@
+/*dimensione logo navbar*/
+.navbar-logo {
+  width: 100px;
+}
+.navbar-logo:hover {
+  transform: scale(1.1);
+}
+
+/*Tv Shows dropdown hover*/
+.dropdown-item:hover {
+  background-color: #ff0000 !important;
+  color: white !important;
+}
+
+/*dimensione post carosello*/
+.movie-landscape {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.3s;
+}
+
+.movie-landscape:hover {
+  transform: scale(1.1);
+}
+
+/*rimozione barra scorrimento carosello*/
+.no-scrollbar {
+  scrollbar-width: none;
+}
